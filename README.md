@@ -2,29 +2,30 @@
 # Aim:
 To study and implement Searching.
 
-# Theory:
-Searching is a process of finding the location of a given element or value within a collection of data. We will be understanding 2 types of searching which are:
-→ Linear Search
-→ Binary Search
+# Theory:<br>
+Searching is a process of finding the location of a given element or value within a collection of data. We will be understanding 2 types of searching which are: <br>
+&#8594; Linear Search <br>
+&#8594; Binary Search <br>
+<br>
 
+_Linear Search:_ In a linear search, the elements of the collection are examined one after another until the sought element is discovered or the search is over. This algorithm does not consider the arrangement of the data. It has a time complexity of O(n), where n is the total number of elements in the set. <br>
+Linear Search Steps: <br>
+1. Start at the first element of the array. <br>
+2. Compare the target element with the current element. <br>
+3. If they match, return the index of the current element. <br>
+4. If not, move to the next element. <br>
+5. Continue this process until the element is found or the end of the array is reached. <br>
+<br>
 
-Linear Search: In a linear search, the elements of the collection are examined one after another until the sought element is discovered or the search is over. This algorithm does not consider the arrangement of the data. It has a time complexity of O(n), where n is the total number of elements in the set.
-Linear Search Steps:
-
-Start at the first element of the array.
-Compare the target element with the current element.
-If they match, return the index of the current element.
-If not, move to the next element.
-Continue this process until the element is found or the end of the array is reached.
-
-Binary Search: Although binary search is a much better algorithm, it is restricted to only working on collections which are sorted in some order. Basically, the idea is to split the given array into two halves and figure out whether the required element lies in the left half or the right half, and so on.It has a time complexity of O(log n), where n is the size of the data available.
-Binary Search Steps:
-
-Start by comparing the target element with the middle element of the array.
-If the target element matches the middle element, return the index.
-If the target element is smaller, repeat the search on the left half of the array.
-If the target element is larger, repeat the search on the right half of the array.
-Continue this process until the target element is found or the sub-array is reduced to size zero.
+_Binary Search:_ Although binary search is a much better algorithm, it is restricted to only working on collections which are sorted in some order. Basically, the idea is to split the given array into two halves and figure out whether the required element lies in the left half or the right half, and so on.It has a time complexity of O(log n), where n is the size of the data available. <br>
+Binary Search Steps: <br>
+1. Start by comparing the target element with the middle element of the array. <br>
+2. If the target element matches the middle element, return the index. <br>
+3. If the target element is smaller, repeat the search on the left half of the array. <br>
+4. If the target element is larger, repeat the search on the right half of the array. <br>
+5. Continue this process until the target element is found or the sub-array is reduced to size zero. <br>
+<br>
+<br>
 
 
 # Code:
