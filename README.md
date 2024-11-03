@@ -94,6 +94,15 @@ int main(void)
 }
 ```
 
+# Output:
+
+a.
+![image](https://github.com/user-attachments/assets/42c78c99-eb45-41d2-bb75-b8a7dec19e1a)
+
+b.
+![image](https://github.com/user-attachments/assets/e8f26cc4-7e68-4706-a20c-31696bd0e35a)
+
+
 # Conclusion:
 
 → We learnt about searching in C++.
